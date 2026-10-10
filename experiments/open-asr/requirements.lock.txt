@@ -96,7 +96,7 @@ torchaudio @ https://download-r2.pytorch.org/whl/cu124/torchaudio-2.6.0%2Bcu124-
 tqdm==4.70.0
 triton==3.2.0
 typing-extensions==4.15.0
-urllib3==2.7.0
+urllib3==2.8.0
 werkzeug==3.1.8
 xxhash==3.8.1
 yarl==1.24.5
