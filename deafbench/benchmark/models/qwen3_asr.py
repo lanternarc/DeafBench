@@ -18,6 +18,7 @@ from deafbench.model_registry import ModelRegistryError, get_model_license
 DEFAULT_MODEL = "Qwen/Qwen3-ASR-0.6B-hf"
 MODEL_NAMES_BY_ID = {
     DEFAULT_MODEL: "qwen3-asr-0.6b",
+    "oruk/oruk-fourier-2b": "oruk-fourier-2b",
     "Qwen/Qwen3-ASR-1.7B-hf": "qwen3-asr-1.7b",
 }
 MAX_NEW_TOKENS = 256
@@ -219,5 +220,21 @@ def run_qwen3_asr_1_7b(
         references,
         output,
         model_id="Qwen/Qwen3-ASR-1.7B-hf",
+        progress=progress,
+    )
+
+
+def run_oruk_fourier_2b(
+    audio_dir: Path,
+    references: Path,
+    output: Path,
+    progress: Callable[[Path], None] | None = None,
+) -> ModelRunInfo:
+    """Run Fourier 2B for noncommercial English speech evaluation."""
+    return run_qwen3_asr(
+        audio_dir,
+        references,
+        output,
+        model_id="oruk/oruk-fourier-2b",
         progress=progress,
     )

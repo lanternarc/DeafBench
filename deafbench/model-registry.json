@@ -223,6 +223,28 @@
       "notice_files": []
     },
     {
+      "model_id": "oruk/oruk-fourier-2b",
+      "revision": "8c2a8871f1304aa2f634da4fb95e24438c4945b9",
+      "upstream_url": "https://huggingface.co/oruk/oruk-fourier-2b",
+      "spdx_license": "CC-BY-NC-4.0",
+      "commercial_use": "noncommercial",
+      "attribution_requirements": [
+        "Credit Oruk, link to the source and CC-BY-NC-4.0 license, and indicate any changes."
+      ],
+      "redistribution_restrictions": [
+        "Commercial use, commercial integration and hosted/API serving require a separate license from Oruk."
+      ],
+      "remote_code_required": false,
+      "supported_languages": ["en"],
+      "parameter_count": 2038052480,
+      "expected_weight_size_bytes": 4076193080,
+      "tested_peak_vram_bytes": 4370992640,
+      "supported_runtimes": ["transformers>=5.23.0,<6", "torch"],
+      "intended_lane": "research_only",
+      "license_files": ["licenses/Oruk-Fourier-2B/MODEL_CARD_LICENSE.txt"],
+      "notice_files": []
+    },
+    {
       "model_id": "soundsgoodai/Zipformer-cr-ctc-transducer-XL-290M",
       "revision": "d410fb15a71cbf87ec5e0a860356563deb9d8f01",
       "upstream_url": "https://huggingface.co/soundsgoodai/Zipformer-cr-ctc-transducer-XL-290M",

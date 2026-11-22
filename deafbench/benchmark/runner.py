@@ -42,6 +42,7 @@ ModelName = Literal[
     "distil-whisper",
     "qwen3-asr-0.6b",
     "qwen3-asr-1.7b",
+    "oruk-fourier-2b",
     "parakeet-tdt-0.6b-v2",
     "granite-speech-4.1-2b",
     "granite-speech-4.1-2b-nar",
@@ -240,6 +241,10 @@ def _default_model_runner(model: ModelName) -> ModelRunner:
         from deafbench.benchmark.models.qwen3_asr import run_qwen3_asr_1_7b
 
         return run_qwen3_asr_1_7b
+    if model == "oruk-fourier-2b":
+        from deafbench.benchmark.models.qwen3_asr import run_oruk_fourier_2b
+
+        return run_oruk_fourier_2b
     if model == "parakeet-tdt-0.6b-v2":
         from deafbench.benchmark.models.parakeet import run_parakeet
 

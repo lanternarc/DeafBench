@@ -16,6 +16,7 @@ MODEL_NAMES = (
     "distil-whisper",
     "qwen3-asr-0.6b",
     "qwen3-asr-1.7b",
+    "oruk-fourier-2b",
     "parakeet-tdt-0.6b-v2",
     "granite-speech-4.1-2b",
     "granite-speech-4.1-2b-nar",
