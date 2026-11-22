@@ -132,6 +132,7 @@ only and does not have one of these newer manifests.
 | `distil-whisper` | `Systran/faster-distil-whisper-large-v3` | Synthetic-v2 plus real-speech smoke | Commercial candidate, MIT |
 | `qwen3-asr-0.6b` | `Qwen/Qwen3-ASR-0.6B-hf` | Synthetic-v2 plus real-speech smoke | Commercial candidate, Apache-2.0 |
 | `qwen3-asr-1.7b` | `Qwen/Qwen3-ASR-1.7B-hf` | Synthetic-v2 plus real-speech smoke | Commercial candidate, Apache-2.0 |
+| `oruk-fourier-2b` | [`oruk/oruk-fourier-2b`](https://huggingface.co/oruk/oruk-fourier-2b) | Local English caption evaluation with the Qwen3-ASR adapter | Research only, CC-BY-NC-4.0 |
 | `parakeet-tdt-0.6b-v2` | `nvidia/parakeet-tdt-0.6b-v2` | Synthetic-v2 plus real-speech smoke | Commercial candidate, CC-BY-4.0 attribution required |
 | `granite-speech-4.1-2b` | `ibm-granite/granite-speech-4.1-2b` | Synthetic-v2 plus real-speech smoke | Commercial candidate, Apache-2.0 |
 | `granite-speech-4.1-2b-nar` | `ibm-granite/granite-speech-4.1-2b-nar` | Synthetic-v2 plus real-speech smoke | Commercial candidate, Apache-2.0; audited remote code |

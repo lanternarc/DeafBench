@@ -1,0 +1,8 @@
+Model: oruk/oruk-fourier-2b
+Pinned revision: 8c2a8871f1304aa2f634da4fb95e24438c4945b9
+Source: https://huggingface.co/oruk/oruk-fourier-2b/tree/8c2a8871f1304aa2f634da4fb95e24438c4945b9
+License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
+Creator: Oruk (https://oruk.ai)
+
+The model card requires attribution to Oruk and a separate commercial license
+for commercial use, commercial integration, or hosted/API serving.

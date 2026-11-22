@@ -48,6 +48,12 @@ def test_packaged_model_registry_is_valid() -> None:
     assert model.intended_lane == "commercial_candidate"
     assert model.remote_code_required is False
 
+    fourier = models_by_id["oruk/oruk-fourier-2b"]
+    assert fourier.spdx_license == "CC-BY-NC-4.0"
+    assert fourier.intended_lane == "research_only"
+    assert fourier.commercial_use == "noncommercial"
+    assert fourier.remote_code_required is False
+
     distil = models_by_id["Systran/faster-distil-whisper-large-v3"]
     assert distil.revision == "c3058b475261292e64a0412df1d2681c06260fab"
     assert distil.spdx_license == "MIT"

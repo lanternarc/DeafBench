@@ -103,6 +103,11 @@ class _FakeModel:
     ("model_id", "revision", "adapter_name"),
     [
         (
+            "oruk/oruk-fourier-2b",
+            "8c2a8871f1304aa2f634da4fb95e24438c4945b9",
+            "oruk-fourier-2b",
+        ),
+        (
             "Qwen/Qwen3-ASR-0.6B-hf",
             "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
             "qwen3-asr-0.6b",
